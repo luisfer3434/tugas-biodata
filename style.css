@@ -1,0 +1,169 @@
+* {
+    text-decoration: none;
+    font-family: montserrat;
+    top:0;
+    left:0;
+    right:0;
+}
+
+navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #424242;
+    height: 15;
+    width: 100%;
+}
+
+navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    align-items: center;
+}
+  
+navbar a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.landing {
+    padding-bottom: 33rem;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.body-img img {
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    filter: opacity(0.3);
+}
+
+.header {
+    background-color: black;
+    color:white;
+    padding: 2rem 10rem 2rem;
+}
+
+.header-content {
+    display: fixed;
+}
+
+.header-img img {
+    position: static;
+    height: 45vh;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 30%;
+}
+
+.header h1 {
+    font-size: 35px;
+}
+
+.header h3 {
+    font-weight: normal;
+}
+
+.biodata {
+    padding: 2rem 10rem;
+    background-color: #424242;
+    color: #f2f2f2;
+    align-items: center;
+}
+
+.biodata-content {
+    display: fixed;
+    text-align: center;
+}
+
+.biodata-content h1 {
+    font-size: 30px;
+}
+
+.biodata-content h3 {
+    font-size: 25px;
+    line-height: 10px;
+    color: white;
+}
+
+.biodata-content h5 {
+    font-size: 20px;
+    line-height: 3px;
+    font-weight: normal;
+}
+
+.contact {
+    padding: 2rem 10rem;
+    background-color: black;
+    color: #f2f2f2;
+    align-items: center;
+    left: 0;
+}
+
+.contact-content {
+    display: fixed;
+    text-align: center;
+}
+
+.contact-content h1 {
+    font-size: 30px;
+}
+
+.contact-content h3 {
+    font-size: 25px;
+    line-height: 10px;
+    color: white;
+}
+
+.contact-content h5 {
+    font-size: 20px;
+    line-height: 3px;
+    font-weight: normal;
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #424242;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: white;
+}
+
+footer {
+    height: 30px;
+    margin-bottom: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem ;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f2f2f2;
+}
